@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Sep 16 14:14:40 2020
+Created on Wed Jun 17 14:14:40 2020
 
 @author: luis_
 """
 import matplotlib.pyplot as plt
-import face_recognition_house as fr
+import face_recognition_utility as fr
 import cv2
 
 
