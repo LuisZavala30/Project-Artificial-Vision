@@ -27,10 +27,8 @@ while is_capturing:
         bboxes = fr.faces_detection(frame)
         
         for box in bboxes:
-            detected_faces = fr.draw_boxes(frame,box,(0,255,0))
-            
-        faces = fr.extract_faces(frame, bboxes)
-        plt.imshow(faces[0])
+            detected_faces = fr.draw_boxes(frame,box,(0,255,0))    
+            plt.imshow(detected_faces)
         
         try:    
             plt.pause(1)
